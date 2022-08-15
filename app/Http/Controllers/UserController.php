@@ -37,6 +37,6 @@ class UserController extends Controller
             "status" => "success",
             "message" => "Logged out successfully",
             "data" => []
-        ]);
+        ], 200);
     }
 }
